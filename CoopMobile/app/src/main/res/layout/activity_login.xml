@@ -11,16 +11,7 @@
         android:layout_height="96dp"
         app:srcCompat="@drawable/logo"
         tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="33dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="72dp"
-        android:layout_height="24dp"
-        android:paddingLeft="10dp"
-        android:text="Welcome"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -29,7 +20,16 @@
         android:paddingLeft="10dp"
         android:text="US English"
         tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="178dp" />
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:paddingLeft="10dp"
+        android:text="Welcome"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="141dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -37,7 +37,7 @@
         android:layout_height="25dp"
         app:srcCompat="@drawable/icon_dropdown"
         tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="178dp"
+        tools:layout_editor_absoluteY="140dp"
 
         />
 
@@ -50,7 +50,7 @@
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusBottomEnd="12dp"
         tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="233dp">
+        tools:layout_editor_absoluteY="160dp">
 
         <!-- Add your TextInputEditText inside the layout -->
         <com.google.android.material.textfield.TextInputEditText
@@ -68,7 +68,8 @@
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusBottomEnd="12dp"
         tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="313dp">
+        tools:layout_editor_absoluteY="225dp"
+        >
 
 
 
@@ -80,52 +81,53 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="317dp"
+        android:layout_height="182dp"
+        app:srcCompat="@drawable/stay_tuned"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="311dp"
+        android:layout_height="49dp"
+        android:text="Button"
+        android:textColor="#000000"
+        app:backgroundTint="#9d9fa1"
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="26dp"
         android:layout_height="25dp"
         app:srcCompat="@drawable/lock"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="400dp" />
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="315dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Can't Sign in?"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="406dp" />
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="321dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="98dp"
         android:layout_height="18dp"
         android:text="Remember Me"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="407dp" />
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="322dp" />
 
-    <ImageView
-        android:id="@+id/imageView4"
+    <CheckBox
+        android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/checkbox_off_background"
-        tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="406dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="293dp"
-        android:layout_height="173dp"
-        app:srcCompat="@drawable/stay_tuned"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="500dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="311dp"
-        android:layout_height="49dp"
-        android:background="@drawable/rounded_button_bg"
-        android:text="Button"
-        android:textColor="#000000"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="442dp" />
+        android:text=""
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="307dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
