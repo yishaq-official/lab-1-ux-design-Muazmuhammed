@@ -56,7 +56,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type here..." />
+            android:hint="Username" />
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -70,12 +70,62 @@
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="313dp">
 
-        <!-- Add your TextInputEditText inside the layout -->
+
+
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type here..." />
+            android:hint="Password" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="26dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/lock"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can't Sign in?"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:text="Remember Me"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="293dp"
+        android:layout_height="173dp"
+        app:srcCompat="@drawable/stay_tuned"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="311dp"
+        android:layout_height="49dp"
+        android:background="@drawable/rounded_button_bg"
+        android:text="Button"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="442dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

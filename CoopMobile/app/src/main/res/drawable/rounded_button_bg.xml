@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-  
-</selector>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Match the border radius you used for your TextInputLayout (e.g., 12dp) -->
+    <corners android:radius="12dp" />
+
+    <!-- Gray background color (change the hex code if you want a lighter or darker gray) -->
+    <solid android:color="#E0E0E0" />
+</shape>
