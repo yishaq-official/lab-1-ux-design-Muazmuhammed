@@ -7,18 +7,26 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="286dp"
-        android:layout_height="126dp"
+        android:layout_width="279dp"
+        android:layout_height="96dp"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="33dp" />
 
     <TextView
         android:id="@+id/textView"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:text="Welcome"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="148dp" />
+        android:text="TextView"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="149dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
